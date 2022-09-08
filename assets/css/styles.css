@@ -1,19 +1,40 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-
-.header {
-    padding: 1em;
-    padding-left:3em;
-    background-color: grey;
+.navbar {
+  display: flex;
+  position: sticky;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75em 4em;
+  background-color: rgb(90, 144, 205);
+  font-family: "Raleway", sans-serif;
 }
 
-h1{
-    color: white;
-    font-size:380%;
-    letter-spacing: .08em
-    
+.menu {
+  display: flex;
+  flex-wrap:wrap;
+  gap: 0.65em;
+  
+}
+
+.links {
+  font-size: 140%;
+  list-style-type: none;
+padding-right:2em;
+  color: white;
+}
+#contact_link {
+  list-style-type: none;
+  font-size: 140%;
+  color: white;
+  padding-right:4em;
+}
+.name {
+  font-size: 250%;
+  color: white;
+  
 }
