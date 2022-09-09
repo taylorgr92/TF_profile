@@ -18,23 +18,40 @@
   display: flex;
   flex-wrap:wrap;
   gap: 0.65em;
+  list-style-type: none;
   
 }
 
 .links {
-  font-size: 140%;
+  font-size: 120%;
   list-style-type: none;
 padding-right:2em;
   color: white;
+  
 }
 #contact_link {
   list-style-type: none;
   font-size: 130%;
   color: white;
   padding-right:2.5em;
+ 
 }
 .name {
-  font-size: 250%;
+  font-size: 225%;
   color: white;
   
+  
 }
+
+nav a {
+  text-decoration: none;
+}
+
+img {
+  float:right;
+}
+
+#profile_text{
+  float:right;
+}
+
