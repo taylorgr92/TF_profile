@@ -16,74 +16,80 @@
 
 .menu {
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   gap: 0.65em;
   list-style-type: none;
-  
 }
 
 .links {
   font-size: 120%;
   list-style-type: none;
-padding-right:2em;
+  padding-right: 2em;
   color: white;
-  
 }
 #contact_link {
   list-style-type: none;
   font-size: 130%;
   color: white;
-  padding-right:2.5em;
- 
+  padding-right: 2.5em;
 }
-.name {
-  font-size: 225%;
-  color: white;
-  
-  
-}
+
 
 nav a {
   text-decoration: none;
 }
+.name {
+  font-size: 225%;
+  color: white;
+}
+.container-grid {
+  font-family: "Raleway", sans-serif;
+  font-size: 140%;
+  border: 5px solid #2ea41c;
+}
 
-img {
-  float:right;
-  margin-right:12em;
-  box-shadow: 2px 1px 12px 0px rgba(0,0,0,0.79);
+#my_face {
+  box-shadow: 2px 1px 12px 0px rgba(0, 0, 0, 0.79);
   border-radius: 4px;
-  margin-left:100px;
-  margin-top: 50px;
   max-width: 100%;
   height: auto;
-  
-}
-#profile_text{
-  text-align:center;
-  display:flex;
- padding-top: 5em;
- padding-bottom:5em;
- margin-left:15%;
- font-family:"Raleway", sans-serif;
- font-size:140%
 }
 
+.container-grid {
+  font-family: "Raleway", sans-serif;
+  font-size: 140%;
+  border: 5px solid #2ea41c;
+}
 
 .profile {
-  background-color:rgb(228, 188, 203);
-  height:100%;
+  background-color: rgb(228, 188, 203);
+  height: 100%;
   width: 100%;
 }
 
- .projects{
-  background-color:rgb(90, 144, 205);
-  height:40em;
-
-
-  
+.projects {
+  background-color: rgb(90, 144, 205);
+  height: 35em;
 }
 
-.contact{
-  background-color:rgb(228, 201, 211);
-  
+.projects h1 {
+  color: white;
+}
+
+.contact {
+  background-color: rgb(228, 201, 211);
+}
+/*responsive functionality*/
+
+@media screen and (max-width: 768px) {
+  main,
+  nav {
+    flex-direction: column;
+  }
+}
+
+.container-grid {
+  flex-wrap: wrap;
+  color: black;
+  display:inline-grid
 }
