@@ -49,9 +49,34 @@ nav a {
 
 img {
   float:right;
+  margin-right:12em;
+  box-shadow: 2px 1px 12px 0px rgba(0,0,0,0.79);
+  border-radius: 4px;
+  margin-left:100px;
+  margin-top: 50px;
+  max-width: 100%;
+  height: auto;
+  
 }
-
 #profile_text{
-  float:right;
+  text-align:center;
+ padding-top: 5em;
+ padding-bottom:5em;
+ margin-left:15%;
+ font-family:"Raleway", sans-serif;
+ font-size:140%
 }
 
+
+.profile {
+  background-color:rgb(212, 160, 180);
+  height:100%;
+  width: 100%;
+}
+
+div .projects{
+  background-color:rgb(90, 144, 205);
+  height:100%;
+  width: 100%;
+  
+}
