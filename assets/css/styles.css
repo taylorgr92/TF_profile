@@ -1,22 +1,16 @@
-html,
-body {
-  height: 100%;
-}
-
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  
 }
 
 .navbar {
   display: flex;
-  position: sticky;
   align-items: center;
   justify-content: space-between;
   padding: 0.75em 4em;
   background-color: rgb(90, 144, 205);
-
 }
 
 .menu {
@@ -31,12 +25,6 @@ body {
   padding-right: 2em;
   color: white;
 }
-#contact_link {
-  list-style-type: none;
-  font-size: 130%;
-  color: white;
-  padding-right: 2.5em;
-}
 
 nav a {
   text-decoration: none;
@@ -48,104 +36,111 @@ nav a {
 
 .flex-wrapper {
   display: flex;
-  flex-direction: row;
-  gap: 20px;
+  gap: 1.25em;
   flex-wrap: wrap;
   justify-content: center;
   height: 75vh;
-  flex: wrap;
   background-color: rgb(235, 213, 221);
-
-
+  height: 100%;
 }
 
 .mytext {
-
   font-family: "Raleway", sans-serif;
   font-size: 100%;
-  flex-basis: 700px;
-  width: 100px;
-  padding-top: 6em;
-  flex: wrap;
-  padding: 2em;
- 
+  flex-basis: 43.75em;
+  /* width: 6.25em; */
+
+  flex-wrap: wrap;
+
 }
 .myimage {
   margin-top: 5em;
-  flex-basis: 500px;
-  width: 75px;
-  height: 75px;
   padding-bottom: 1em;
-  padding:2em
+  padding: 1em;
+
+
 }
 img {
   border-radius: 6px;
   box-shadow: 2px 1px 12px 0px rgba(0, 0, 0, 0.79);
   max-width: 100%;
-  max-height: auto;
+  max-height:auto;
+  flex-basis: 31.25em;
+ 
+ 
 }
 .projects {
   background-color: rgb(90, 144, 205);
-  height: 75vh;
-
+  height: 100vh;
+  max-height:100%;
 }
 
 .flex_wrapper_projects {
   display: flex;
-  flex-direction: row;
-  gap: 80px;
+  gap: 5em;
   flex-wrap: wrap;
-  height:75vh;
+  margin: 8em;
+  flex-direction:row;
+
   
 }
 
+.project_title {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 300%;
+  padding-top: 1em;
+  margin-bottom: 1em;
+}
+
+.project-images {
+  max-width:100%;
+  max-height:auto;
+
+}
+.simpsons-section{
+  padding-left: 2em;
+ 
+}
 
 
 #simpsons_image {
-  height: 300px;
-
+  height: 18.75em;
   max-width: 100%;
   max-height: auto;
-  
+ 
 }
 
-
-.project_title {
-  text-align:center;
-  font-family: "Raleway", sans-serif;
-  font-size:300%;
-padding-top:1em;
-  margin-bottom:1em;
-
-
-}
-
-#left_coming_soon {
-  height:200px;
-  
+#left_coming_soon,
+#right_coming_soon{
+  height: 13em;
   max-width: 100%;
   max-height: auto;
-}
-#right_coming_soon {
-  height: 150px;
-  margin-top:1em;
-  max-width: 100%;
-  max-height: auto;
+  margin:1em;
 }
 
-
+.contact-section {
+  height: 75vh;
+  background-color: rgb(235, 213, 221);
+  height: 100vh;
+  max-height:100%;
+}
+.footer{
+  height:20vh;
+  max-height:100%;
+}
 /*Responsive functionality*/
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   main,
   nav {
     flex-direction: column;
   }
-}
+} */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   #simpsons_image,
   #coming_soon,
   #right_coming_soon {
     margin-top: 0;
   }
-}
+} */
