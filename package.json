@@ -1,0 +1,11 @@
+{
+  "name": "tf_profile",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/taylorgr92/TF_profile.git",
+  "author": "taylorgr92 <79235815+taylorgr92@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "5.3.0-alpha1"
+  }
+}
